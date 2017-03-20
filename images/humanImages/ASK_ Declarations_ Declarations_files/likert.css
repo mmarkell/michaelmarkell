@@ -1,0 +1,44 @@
+div.likert div.question,
+div.likert-abbreviated div.question {
+	margin: 8px 0px;
+	padding: 8px ;
+	background-color: #EEEEEE ;
+}
+div.likert table {
+	border-spacing: 0px ;
+}
+div.likert table thead tr th {
+	border: none ;
+	background-color: white ;
+	text-align: center ;
+	font-size: 12px ;
+	min-width: inherit ;
+}
+
+div.likert table tbody tr td.likert-prompt {
+	text-align: left ;
+}
+
+div.likert table tbody tr td {
+	text-align: center ;
+	border-bottom: 1px solid #CCCCCC ;
+}
+
+div.likert table tr td {
+	min-width: 0px;
+}
+
+div.likert-abbreviated-item {
+	clear: both ;
+	border-bottom: 1px solid #CCCCCC ;
+}
+
+div.likert-abbreviated-prompt {
+	float: left ;
+	width: 70% ;
+}
+
+div.likert-abbreviated-response {
+	float: right ;
+	width: 25% ;
+}
